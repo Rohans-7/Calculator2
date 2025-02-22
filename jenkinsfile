@@ -73,11 +73,6 @@ pipeline {
         }
     }
     }
-    stage('Cleanup Old Containers') {
-            steps {
-                sh 'docker container prune -f'
-            }
-        }
 }
  post {
         success {
