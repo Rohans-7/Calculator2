@@ -9,7 +9,7 @@ class CalculatorTest {
     @Test
     void testSquareRoot() {
         assertEquals(3.0, calculator.squareRoot(9), 0.0001);
-        assertEquals(2.0, calculator.squareRoot(25), 0.0001); // change the test case-> to check system status
+        assertEquals(5.0, calculator.squareRoot(25), 0.0001); // change the test case-> to check system status
         assertEquals(0.0, calculator.squareRoot(0), 0.0001);
         assertTrue(Double.isNaN(calculator.squareRoot(-9))); // NaN for negative numbers
     }
