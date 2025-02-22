@@ -20,7 +20,7 @@ pipeline {
         stage('Execute test cases') {
             steps {
                 script {
-                    sh 'mven clean test'
+                    sh 'mvn clean test'
                 }
             }
         }
