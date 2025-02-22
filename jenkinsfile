@@ -17,6 +17,21 @@ pipeline {
                 }
             }
         }
+        stage('Execute test cases') {
+            steps {
+                script {
+                    sh 'mven clean test'
+                }
+            }
+        }
+
+        stage('Build pulled code') {
+            steps {
+                script {
+                    sh 'mvn clean install'
+                }
+            }
+        }
 
         stage('Build Docker Image') {
             steps {
