@@ -52,19 +52,32 @@ pipeline {
                  }
             }
         }
+        
+        stage('Removing docker image from local repo') {
+            steps {
+                script{
+                    sh 'docker rmi $registry:latest'
+                }
+            }
+        }
 
-     stage('Run Ansible Playbook') {
-        steps {
-            script {
-              withEnv(["ANSIBLE_HOST_KEY_CHECKING=False"]) {
-                ansiblePlaybook(
-                    playbook: 'deploy.yml',
-                    inventory: 'inventory'
-                )
+        stage('Run Ansible Playbook') {
+            steps {
+                script {
+                withEnv(["ANSIBLE_HOST_KEY_CHECKING=False"]) {
+                    ansiblePlaybook(
+                        playbook: 'deploy.yml',
+                        inventory: 'inventory'
+                    )
+                }
+            }
+        }
+        stage('Cleanup Old Containers') {
+            steps {
+                sh 'docker container prune -f'
             }
         }
     }
- }
 }
  post {
         success {
