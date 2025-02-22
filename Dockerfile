@@ -11,6 +11,7 @@ COPY src ./src
 # Build the project and run test cases
 RUN mvn clean test
 
+RUN mvn clean package
 # Second stage: Runtime environment
 FROM eclipse-temurin:17-jre
 
