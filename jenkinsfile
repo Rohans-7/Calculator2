@@ -52,14 +52,6 @@ pipeline {
                  }
             }
         }
-        
-        stage('Removing docker image from local repo') {
-            steps {
-                script{
-                    sh 'docker rmi $registry:latest'
-                }
-            }
-        }
 
     stage('Run Ansible Playbook') {
         steps {
