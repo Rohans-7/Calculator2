@@ -4,6 +4,10 @@
   remote_user: rohan-sonawane
   become: false
   tasks:
+    - name: Remove existing container if running
+      command: docker rm -f calculator
+      ignore_errors: yes
+
     - name: Pull Docker Image
       docker_image:
         name: "imrds7/calculator2"
