@@ -1,2 +1,1 @@
-Calculator
-Checking github webhook
+# Calculator CI/CD pipeline using Jenkins
