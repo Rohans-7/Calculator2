@@ -4,3 +4,53 @@
 [INFO ] 2025-02-25 12:09:37.050 [main] Main - User exited the calculator.
 [INFO ] 2025-02-25 12:20:45.812 [main] Main - User selected option: 5
 [INFO ] 2025-02-25 12:20:45.816 [main] Main - User exited the calculator.
+[INFO ] 2025-03-18 12:28:35.848 [main] Calculator - 2.0 raised to the power 3.0 is 8.0
+[INFO ] 2025-03-18 12:28:35.852 [main] Calculator - 5.0 raised to the power 0.0 is 1.0
+[INFO ] 2025-03-18 12:28:35.856 [main] Calculator - 2.0 raised to the power -2.0 is 0.25
+[INFO ] 2025-03-18 12:28:35.856 [main] Calculator - 0.0 raised to the power 0.0 is 1.0
+[INFO ] 2025-03-18 12:28:35.856 [main] Calculator - 0.0 raised to the power 5.0 is 0.0
+[INFO ] 2025-03-18 12:28:35.867 [main] Calculator - Factorial of 0 is 1
+[INFO ] 2025-03-18 12:28:35.868 [main] Calculator - Factorial of 1 is 1
+[INFO ] 2025-03-18 12:28:35.868 [main] Calculator - Factorial of 5 is 120
+[INFO ] 2025-03-18 12:28:35.868 [main] Calculator - Factorial of 10 is 3628800
+[ERROR] 2025-03-18 12:28:35.869 [main] Calculator - Factorial is not defined for negative numbers: -5
+[INFO ] 2025-03-18 12:28:35.871 [main] Calculator - Natural log of 1.0 is 0.0
+[INFO ] 2025-03-18 12:28:35.871 [main] Calculator - Natural log of 10.0 is 2.302585092994046
+[ERROR] 2025-03-18 12:28:35.872 [main] Calculator - Logarithm is not defined for zero or negative numbers: 0.0
+[ERROR] 2025-03-18 12:28:35.873 [main] Calculator - Logarithm is not defined for zero or negative numbers: -5.0
+[INFO ] 2025-03-18 12:28:35.875 [main] Calculator - Square root of 9.0 is 3.0
+[INFO ] 2025-03-18 12:28:35.875 [main] Calculator - Square root of 25.0 is 5.0
+[INFO ] 2025-03-18 12:28:35.875 [main] Calculator - Square root of 0.0 is 0.0
+[INFO ] 2025-03-18 12:28:35.875 [main] Calculator - Square root of -9.0 is NaN
+[INFO ] 2025-03-18 12:29:22.903 [main] Main - User selected option: 2
+[ERROR] 2025-03-18 12:29:25.833 [main] Calculator - Factorial is not defined for negative numbers: -1
+[INFO ] 2025-03-18 12:30:15.621 [main] Calculator - 2.0 raised to the power 3.0 is 8.0
+[INFO ] 2025-03-18 12:30:15.625 [main] Calculator - 5.0 raised to the power 0.0 is 1.0
+[INFO ] 2025-03-18 12:30:15.626 [main] Calculator - 2.0 raised to the power -2.0 is 0.25
+[INFO ] 2025-03-18 12:30:15.626 [main] Calculator - 0.0 raised to the power 0.0 is 1.0
+[INFO ] 2025-03-18 12:30:15.626 [main] Calculator - 0.0 raised to the power 5.0 is 0.0
+[INFO ] 2025-03-18 12:30:15.639 [main] Calculator - Factorial of 0 is 1
+[INFO ] 2025-03-18 12:30:15.639 [main] Calculator - Factorial of 1 is 1
+[INFO ] 2025-03-18 12:30:15.640 [main] Calculator - Factorial of 5 is 120
+[INFO ] 2025-03-18 12:30:15.640 [main] Calculator - Factorial of 10 is 3628800
+[ERROR] 2025-03-18 12:30:15.640 [main] Calculator - Factorial is not defined for negative numbers: -5
+[INFO ] 2025-03-18 12:30:15.643 [main] Calculator - Natural log of 1.0 is 0.0
+[INFO ] 2025-03-18 12:30:15.643 [main] Calculator - Natural log of 10.0 is 2.302585092994046
+[ERROR] 2025-03-18 12:30:15.643 [main] Calculator - Logarithm is not defined for zero or negative numbers: 0.0
+[ERROR] 2025-03-18 12:30:15.643 [main] Calculator - Logarithm is not defined for zero or negative numbers: -5.0
+[INFO ] 2025-03-18 12:30:15.645 [main] Calculator - Square root of 9.0 is 3.0
+[INFO ] 2025-03-18 12:30:15.646 [main] Calculator - Square root of 25.0 is 5.0
+[INFO ] 2025-03-18 12:30:15.646 [main] Calculator - Square root of 0.0 is 0.0
+[INFO ] 2025-03-18 12:30:15.646 [main] Calculator - Square root of -9.0 is NaN
+[INFO ] 2025-03-18 12:30:26.015 [main] Main - User selected option: 2
+[ERROR] 2025-03-18 12:30:28.029 [main] Calculator - Factorial is not defined for negative numbers: -1
+[ERROR] 2025-03-18 12:30:28.030 [main] Main - Factorial is not defined for negative numbers
+[INFO ] 2025-03-18 12:30:35.308 [main] Main - User selected option: 3
+[ERROR] 2025-03-18 12:30:40.392 [main] Calculator - Logarithm is not defined for zero or negative numbers: -1.0
+[ERROR] 2025-03-18 12:30:40.393 [main] Main - Logarithm is not defined for zero or negative numbers
+[INFO ] 2025-03-18 12:30:44.803 [main] Main - User selected option: 1
+[INFO ] 2025-03-18 12:30:45.656 [main] Calculator - Square root of 23.0 is 4.795831523312719
+[INFO ] 2025-03-18 12:30:52.159 [main] Main - User selected option: 1
+[ERROR] 2025-03-18 12:30:55.594 [main] Main - Square root of negative numbers is not defined
+[INFO ] 2025-03-18 12:30:59.346 [main] Main - User selected option: 5
+[INFO ] 2025-03-18 12:30:59.347 [main] Main - User exited the calculator.
